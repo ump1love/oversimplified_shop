@@ -21,6 +21,6 @@ Available Commands:
        product add : Laptop ; 200 ; 200 ; Very handy and powerful laptop
 
 5. product delete/remove/del : {id}
-   - Deletes a product by its ID or name/id.
+   - Deletes a product by its ID.
    - Example:
-       product delete : Laptop/1
+       product delete : 1
