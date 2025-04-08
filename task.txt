@@ -3,26 +3,3 @@
 У кожного товара повина бути ціна.
 
 В корзині повина зберігатися інформація про всі товари, їх кількість , їх сумму та загальну сумму.
-
-
-json with all of the products
-update or restock using console input
-
-because its simplified shop - use only 1 user
-simple popup as shop cart, in this popup you can add more of the same item or delete something 
-
-
-help
-version
-product (add, delete)
-stop
-
-
-product add : {name} ; {price} ; {quantity} ; {description}
-example:
-product add : Laptop ; 200 ; 200 ; Very handle and powerful laptop
-
-
-product delete : {id}
-example:
-product delete : Laptop/1
