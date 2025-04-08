@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oversimplified Shop</title>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>
+            (Oversimplified Shop)<br>
+            <small style="font-size: 20px;">like very</small>
+        </h1>
+        <button id="cart-button">Cart</button>
+    </div>
+    <main>
+        <div id="product-list"></div>
+        <div id="cart-popup">
+            <div id="purchased-products">
+                <table id ="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-items"></tbody>
+                </table>
+                <div id="total-price"></div>
+            </div>
+            <button id="close-popup">Close</button>
+        </div>
+    </main>
+    <script type="text/javascript" src="./static/index.js"></script>
+</body>
+</html>

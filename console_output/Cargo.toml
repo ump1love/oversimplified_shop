@@ -1,0 +1,10 @@
+[package]
+name = "console_output"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+#LOCAL CRATES
+
+products = {path = "../products"}

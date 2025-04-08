@@ -1,0 +1,23 @@
+[workspace]
+members = [ 
+    "products", "console_output"
+]
+
+[package]
+name = "lab3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# LOCAL CRATES
+
+products = {path = "products"}
+console_output = {path = "console_output"}
+
+
+# EXTERNAL CRATES
+
+# backend crates
+actix-web = "4.10.2"
+actix-files = "0.6.6"
